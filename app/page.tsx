@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { bebas_neue, roboto_condensed } from "./layout";
+import { bebas_neue, roboto_condensed } from "./font";
 import { CTA } from "@/components/CTA";
 import { Carousel } from "@/components/Carousel";
 

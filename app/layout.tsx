@@ -3,20 +3,10 @@ import "./globals.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Navbar } from "@/components/Navbar";
-import { Roboto_Flex, Bebas_Neue, Roboto_Condensed } from "next/font/google";
+import { Roboto_Flex } from "next/font/google";
+import { bebas_neue } from "./font";
 
 const roboto_flex = Roboto_Flex({
-  subsets: ["latin"],
-  display: "swap",
-});
-
-export const bebas_neue = Bebas_Neue({
-  subsets: ["latin"],
-  display: "swap",
-  weight: "400",
-});
-
-export const roboto_condensed = Roboto_Condensed({
   subsets: ["latin"],
   display: "swap",
 });
